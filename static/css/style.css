@@ -52,8 +52,8 @@ article.single section,
 .article-list article {
   background-color: #f2f0ec;
   color: #2d2d2d;
-  padding-left: 8rem;
-  padding-right: 8rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -61,8 +61,8 @@ article.single section,
 @media (max-width: 52em) {
   article.single section,
   .article-list article {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
@@ -105,7 +105,7 @@ footer {
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   line-height: 1.25;
-  margin-top: 1em;
+  margin-top: .5em;
   margin-bottom: .5em;
 }
 
@@ -115,8 +115,8 @@ p {
 }
 
 h1 { font-size: 2rem }
-h2 { font-size: 1.5rem }
-h3 { font-size: 1.25rem }
+h2 { font-size: 1.25rem }
+h3 { font-size: 1rem }
 h4 { font-size: 1rem }
 h5 { font-size: .875rem }
 h6 { font-size: .75rem }
@@ -183,19 +183,19 @@ footer a {
 
 @media (max-width: 52em) {
   .homepage h1.site-title {
-    font-size: 3em;
+    font-size: 2em;
   }
 }
 
 .homepage h1.headline {
-  font-size: 3em;
+  font-size: 1.75em;
   color: #ffcc66;
 }
 
 @media (max-width: 52em) {
   .homepage h1.headline {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
@@ -228,9 +228,9 @@ footer a {
 }
 
 .article-list article {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  margin-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .article-list article h2.headline,
