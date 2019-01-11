@@ -20,16 +20,4 @@
 </head>
 <body>
 
-<header>
-  <div class="container clearfix">
-    <a class="path" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-    <div class="right">
-      {{ range $i, $page := (where .Site.Pages "Section" "categories") }}
-        {{ if not (eq $i 0) }}|{{ end }}
-        <a class="path" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
-      {{ end }}
-    </div>
-  </div>
-</header>
-
 <div class="container">
