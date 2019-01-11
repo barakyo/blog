@@ -2,6 +2,11 @@
 title: Counter Resets and Database Magic
 date: 2013-12-08
 publishdate: 2013-12-08
+categories:
+  - Development
+tags:
+  - MySQL
+  - Databases
 ---
 
 Recently, the need for a standard numbering convention came up for one of our projects at work. The client 

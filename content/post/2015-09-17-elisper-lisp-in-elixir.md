@@ -2,6 +2,11 @@
 title: "Elisper: Lisp In Elixir"
 date: 2015-09-17
 publishdate: 2015-09-17
+categories:
+  - Development
+tags:
+  - Elixir
+  - Lisp
 ---
 
 I recently read a really interesting and great blog post titled [Lisp in your Language](http://danthedev.com/2015/09/09/lisp-in-your-language/) by Dan Prince. The article walked through an implementation of a subset of Lisp. After reading the post, I thought it was a great project to not only have a deeper understanding of Lisp but also of the language that the implementation is in. In fact, I was so inspired by the post, I decided that maybe I'd give it a shot to write it in [Elixir](https://elixir-lang.org).

@@ -2,6 +2,11 @@
 title: More TDD and Recursion Practice
 date: 2013-11-14
 publishdate: 2013-11-14
+categories:
+  - Development
+tags:
+  - Python
+  - TDD
 ---
 
 It seems that Javascript challenges are more frequent at work. Thursday afternoon when we got back from lunch, my coworker was testing himself in the [You Can't Javascript Under Pressure](http://toys.usvsth3m.com/javascript-under-pressure/) challenges. As great coworkers, we (by that I mean, me) decided to help out and put more pressure on our fellow coworker, without even being asked to! One of the challenges that came up during the test was a function `ArraySum()` which accepts a list (array) of values and you must total all the integers within the array. The array could contain strings, numbers, booleans, lists of strings, numbers, booleans, etc. Regardless of the input, you must total all the integers within the array. After seeing that challenge (and helping with the correct answer), I thought it might be good practice for another blog post.

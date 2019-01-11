@@ -2,6 +2,11 @@
 title: Writing Test Cases for Laravel
 date: 2013-11-10
 publishdate: 2013-11-10
+categories:
+  - Development
+tags:
+  - PHP
+  - TDD
 ---
 
 Besides writing test cases just because "everyone else is", we should be writing test cases since they'll help create a stronger trust in our code that our functions are doing what they should be doing.

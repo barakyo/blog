@@ -2,6 +2,8 @@
 title: Why Barakyo?
 date: 2013-11-12
 publishdate: 2013-11-12
+categories:
+  - Personal
 ---
 
 Over this past weekend I was asked, twice, "Why Barakyo?" While the explanation is simple enough, I sometimes get the response that my Barakyo nickname isn't professional. I've even been told I should consider choosing another domain name. While I understand that my nickname isn't professional and even though I share my blog with companies that I am interested in, I didn't want to strip my blog of me, hence the reason for the personal category. One of my goals for my blog was that it would still express me, without having to be techincal. One way of doing that is through the use of my domain name, to me it's fun, expressive, and short! It's also pretty easy to spell over the phone :)

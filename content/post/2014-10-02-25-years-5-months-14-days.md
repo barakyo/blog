@@ -2,6 +2,8 @@
 title: 25 years, 5 months, and 14 days
 date: 2014-04-06
 publishdate: 2014-04-06
+categories:
+  - Personal
 ---
 
 Today I am 25 years, 5 months, and 14 days old, the exact same age my brother was when he passed away. This day has been on my mind everyday for the past year. I've spent long car rides, sleepness nights, and countless laps swimming thinking about today, asking my self what should I do, what should I say. After wrestling with my thoughts, I thought it may be best to write out my thoughts and reflect.

@@ -2,6 +2,10 @@
 title: 2015 New Year Resolutions
 date: 2014-12-31
 publishdate: 2014-12-31
+categories:
+  - Personal
+tags:
+  - New Year Resolutions
 ---
 
 Well I hope I'm not too late to get my new year resolutions in. I've been thinking about this post for a while, but was only finally inspired after my last cup of coffee of 2014. In fact, this day included a lot of lasts. The last swim of the year, the last time I'd visit my brother in 2014, the last time I'd accidentally cut myself in 2014 (I hope), the last..well, I think we all get it. In all seriousness, I don't usually subscribe to the new year resolution thing, I believe that if you want to change something about your life or self, why wait? But, I also understand the nice things of having a clean slate. In addition, new year resolutions are slightly cliche, but I believe that writing them down will force some accountability. I'd like to review them a year from now and see reflect on how much I've kept to them.

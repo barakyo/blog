@@ -2,6 +2,11 @@
 title: Play! Framework -- Returning JSON Responses
 date: 2014-04-06
 publishdate: 2014-04-06
+categories:
+  - Development
+tags:
+  - Java
+  - Play!
 ---
 
 I've recently started a project at working using the [Play Framework](http://www.playframework.com/) and while its a great framework, I was having a lot of trouble with some of the simplest tasks. I wouldn't blame Play for my problems, returning to Java after a long hiatus, being spoiled by dynamicly typed languages, and lack of documentation really made such tasks like returning a JSON response difficult.

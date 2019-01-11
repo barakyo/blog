@@ -2,6 +2,10 @@
 title: "Book Review: Ready Player One"
 date: 2015-01-28
 publishdate: 2015-01-28
+categories:
+  - Personal
+tags:
+  - Book Review
 ---
 
 ![Ready Player One](https://encrypted.google.com/books/content/images/frontcover/FY_HWAcm10MC?fife=w300-rw)

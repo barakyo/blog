@@ -2,6 +2,11 @@
 title: Play! Framework -- Parsing JSON
 date: 2014-04-06
 publishdate: 2014-04-06
+categories:
+  - Development
+tags:
+  - Java
+  - Play!
 ---
 
 ## tl;dr ##

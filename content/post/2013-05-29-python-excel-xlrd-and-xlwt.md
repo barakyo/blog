@@ -2,6 +2,10 @@
 title: Python Excel XLRD and XLWT
 date: 2013-05-29
 publishdate: 2013-05-29
+categories:
+  - Development
+tags:
+  - Python
 ---
 
 The other week we received a request for a small script from a department on campus. The department needed to evaluate data from a Microsoft Excel worksheet which they wrote a macro for. Their problem, though, was to aggregate all their data into one sheet. This aggregation process was not only the most tedious but was also their longest task taking nearly 2 weeks to complete. My coworkers and I were shocked that they've continued this process for so long without looking to automate it somehow, so we took on the challenge to ease the pain in their lives. 

@@ -2,6 +2,11 @@
 title: Flatten Dictionary Challenge
 date: 2013-11-17
 publishdate: 2013-11-17
+categories:
+  - Development
+tags:
+  - Python
+  - TDD
 ---
 
 While browsing [/r/javascript](http://www.reddit.com/r/javascript) Thursday night, I came across a post regrading a [mildly interesting interview question](http://www.reddit.com/r/javascript/comments/1qn7bo/mildly_interesting_question_i_got_while/) which had to do with flattening a Javascript object to a URI.

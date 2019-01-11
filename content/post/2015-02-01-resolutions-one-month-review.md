@@ -2,6 +2,10 @@
 title: 2015 Resolutions - One Month Review
 date: 2015-02-01
 publishdate: 2015-02-01
+categories:
+  - Personal
+tags:
+  - New Year Resolutions
 ---
 
 Wow! I can't believe it's February already! As I stated in my New Year Resolutions post, I wrote down my resolutions so that I could be held accountable for them. Reviewing my resolutions after a year seemed like I would easily lose touch/sight of them. I decided a good idea would be to review my progress month-by-month, so here it goes:
