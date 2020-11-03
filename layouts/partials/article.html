@@ -26,5 +26,10 @@
   </div>
   <section class="body" itemprop="articleBody">
     {{ .Content }}
+    <div id="root"></div>
   </section>
 </article>
+
+{{- range .Params.js }}
+<script src="{{ . }}"></script>
+{{- end }}
