@@ -1,4 +1,4 @@
 baseURL = "https://barakyo.github.io/"
 languageCode = "en-us"
 title = "barakyo"
-theme = "base16"
+theme = "hugo-PaperMod"
