@@ -20,11 +20,8 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.7/dist/css/autoComplete.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.7/dist/autoComplete.min.js"></script>
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -33,6 +30,10 @@
     <style>
       h1#title {
         font-family: "Dancing Script", cursive;
+      }
+      #autoComplete {
+        color: #000;
+        border: 0.05rem solid rgba(0, 0, 0);
       }
     </style>
   </head>
@@ -45,13 +46,15 @@
         <p class="lead text-center">
           Welcome to Sherwood Country Club!
           <br />
+          <br />
           We're so excited you're here to
-          celebrate with us!! Please use the dropdown below to find your seat.
+          celebrate with us!! 
+          <br />
+          <br />
+          Please use the dropdown below to find your table.
         </p>
-        <select class="guest-dropdown" name="guests" style="width: 300px">
-            <option></option>
-        </select>
         <h1 id="table-number" class="display-1 text-center"></h1>
+        <input id="autoComplete" type="search" dir="ltr" spellcheck=false autocorrect="off" autocomplete="off" autocapitalize="off">
       </div>
     </div>
     <script type="text/javascript">
@@ -1219,20 +1222,29 @@
   }
 ];
 
-    const data = guests.map(({ id, name }) => ({ id, text: name }));
-
       $(document).ready(function () {
-        $(".guest-dropdown").select2({ placeholder: 'Enter your name', allowClear: true, data: data });
-        $(".guest-dropdown").on('select2:open', () => {
-            $('#table-number').empty();
-            $('#table-number').removeClass('animate__animated animate__bounceIn');
+
+        const autocompleteJs = new autoComplete({ 
+            placeholder: 'Enter your name', 
+            data: {
+                src: guests,
+                keys: ['name'],
+                cache: true
+            },
+            events: {
+                input: {
+                    selection: (event) => {
+                        $('#table-number').removeClass('animate__animated animate__bounceIn');
+                        $('#table-number').empty();
+                        const { name, table_number } = event.detail.selection.value;
+                        autocompleteJs.input.value = name;
+                        $('#table-number').append(table_number);
+                        $('#table-number').addClass('animate__animated animate__bounceIn');
+                    }
+                }
+            }
         });
-        $(".guest-dropdown").on('select2:select', (ev) => {
-            const { id } = ev.params.data;
-            const { table_number } = guests[id];
-            $('#table-number').append(table_number);
-            $('#table-number').addClass('animate__animated animate__bounceIn');
-        });
+
       });
     </script>
   </body>
